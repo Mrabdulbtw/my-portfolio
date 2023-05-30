@@ -1,0 +1,61 @@
+.about{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.about--container{
+width: 500px;
+height: 300px;
+ border-radius: 5px;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.about--container p{
+margin-top: 10px;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.626);
+text-transform: capitalize;
+}
+.about h2{
+    text-transform: capitalize;
+    margin-top: 10px;
+     
+}
+.about--links{
+margin-top: 80px;
+
+}
+.about--links ion-icon{
+    font-size: 24px;
+}
+.skil{
+    text-align: center;
+    text-transform: capitalize;
+    height: 50vh;
+    user-select: none;
+    
+
+}
+.skil h1{
+    margin-bottom: 30px;
+    
+}
+.skil h3{
+    color: rgba(0, 0, 0, 0.605);
+}
+.skil--list{
+margin-top: 10px;
+
+}
+@media screen and (max-width:900px){
+    .about--container{
+
+   width: 400px;
+   height: 200px;
+
+    }
+}

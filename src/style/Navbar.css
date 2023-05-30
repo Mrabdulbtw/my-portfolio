@@ -1,0 +1,50 @@
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.links a {
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+
+}
+
+button {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 28px;
+    display: none;
+}
+
+#open {
+    height: 100vh;
+}
+
+#open .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width:900px) {
+    button {
+        display: block;
+        top: 30px;
+    }
+    
+    .links{
+        display: none;
+    }
+
+}

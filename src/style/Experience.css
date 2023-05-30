@@ -1,0 +1,83 @@
+.experience {
+    height: 150vh;
+    width: 100%;
+
+}
+
+.line {
+    width: 3px;
+    background-color: rgb(21, 111, 150);
+    height: 830px;
+    position: relative;
+    right: -50%;
+    top: -30px;
+    border-radius: 50px;
+}
+
+
+
+.element {
+    width: 900px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 579px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+
+.e-box {
+    width: 350px;
+    height: 170px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    box-shadow: 5px;
+    display: grid;
+
+}
+
+
+.e-box p{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.e-box b{
+    font-size: 12px;
+}
+
+.-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(8, 8, 8);
+    display: grid;
+    place-content: center;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+.red{
+    background-color: red;
+}
+@media screen and (max-width:900px) {
+    .line{
+        left: 30px;
+    }
+    .experience{
+        position: relative;
+    }
+    .e-box {
+       position: absolute;
+       right: -130px;
+       margin-top: 20px;
+        
+    }.-icon{
+        position: absolute;
+         right: 295px;
+    }
+  
+}

@@ -1,0 +1,42 @@
+
+   
+
+.projects-container h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.667);
+
+}
+.projects-list{
+    width: 95%;
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(170px,200px));
+    margin: auto;
+    margin-top: 60px;
+    
+
+}
+
+.projectItem {
+    width: 170px;
+    height: 220px;
+    background-color: rgba(27, 70, 141, 0.221);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.projectItem img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.projectItem h4 {
+
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 12px;
+    
+}
