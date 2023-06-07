@@ -8,11 +8,14 @@ export default function ProjectsItems({ name, img, id }) {
 
   return (
 
-    <div div className='projectItem' onClick={() => {
-      navigate('/projects/' + id)
-    }}>
-      <img src={img} alt="" />
+    <div div className='projectItem'>
+      <div className="imgae-holder">
+        <img src={img} alt="" />
+      </div>
       <h4>{name}</h4>
+      <button className='view-button' onClick={() => {
+        navigate('/projects/' + id)
+      }}>view</button>
     </div >
   )
 }

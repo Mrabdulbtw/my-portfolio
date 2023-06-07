@@ -1,5 +1,5 @@
 .nav-bar {
-    height: 100px;
+    height: 60px;
     width: 100%;
     background-color: black;
     display: flex;
@@ -15,7 +15,7 @@
 
 }
 
-button {
+.toggel-button {
     position: absolute;
     right: 0;
     margin-right: 10px;
@@ -29,21 +29,49 @@ button {
 
 #open {
     height: 100vh;
+
 }
 
 #open .links {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+
 }
 
+.links {
+    position: relative;
+}
+
+.links .navi::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 1px;
+    background-color: #dad4d4a4;
+    display: inline-flex;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 50px;
+   
+
+}
+
+.links .navi.active::before {
+    width: 50px;
+    transition: 2s width;
+}
+
+
+
 @media screen and (max-width:900px) {
-    button {
+    .toggel-button {
         display: block;
-        top: 30px;
+        top: 20px;
     }
-    
-    .links{
+
+    .links {
         display: none;
     }
 
