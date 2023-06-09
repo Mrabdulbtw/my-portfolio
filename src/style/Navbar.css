@@ -55,10 +55,9 @@
     bottom: -5px;
     border-radius: 50px;
    
-
 }
 
-.links .navi.active::before {
+.links .active::before {
     width: 50px;
     transition: 2s width;
 }
@@ -74,5 +73,8 @@
     .links {
         display: none;
     }
+    .links .active::before {
+       width: 0;
+    }
 
-}
+}    
