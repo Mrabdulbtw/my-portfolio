@@ -44,6 +44,12 @@ margin-top: 80px;
     margin-bottom: 30px;
     
 }
+.github-icon:hover{
+color: red;    
+cursor: pointer;
+    
+}
+
 .skil h3{
     color: rgba(0, 0, 0, 0.605);
 }

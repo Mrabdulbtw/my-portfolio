@@ -26,7 +26,7 @@ export default function ProjectDisplay() {
                     <b>descripition : </b>{projects.projectsdescription}
                 </div>
                 <div className="view-link">
-                    <b>  Link : </b> <Link to={projects.projectLink}>https://mrabdulbtw.github.io/cart/</Link>
+                    <b>  Link : </b> <Link to={projects.projectLink}>{projects.projectLink}</Link>
                 </div>
             </div>
 

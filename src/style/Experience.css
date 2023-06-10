@@ -36,7 +36,11 @@
     padding: 10px;
     box-shadow: 5px;
     display: grid;
+    transition: box-shadow 0.3s;
 
+}
+.e-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 
@@ -59,6 +63,10 @@
     border: 2px solid #fff;
     color: #fff;
     font-size: 18px;
+}
+.-icon:hover{
+    background-color: rgb(161, 22, 196);
+    
 }
 .red{
     background-color: red;

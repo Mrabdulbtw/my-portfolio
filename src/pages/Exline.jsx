@@ -3,7 +3,6 @@ import React from 'react'
 
 export default function Exline({ Education, icon, date, department, gpa }) {
     return (
-
         <div className="element">
             <div className="experience-content">
                 <div className="e-box">
@@ -17,7 +16,6 @@ export default function Exline({ Education, icon, date, department, gpa }) {
                 {date}
             </div>
         </div>
-
     )
     
 }

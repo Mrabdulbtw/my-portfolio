@@ -1,4 +1,5 @@
 import cart from "./assets/portfolio.png"
+import cryptoCheaker from "../src/assets/Screenshot 2023-06-10 143931.png"
 
 
 
@@ -9,14 +10,13 @@ export const projectsData = [
     projectsdescription: `this is simpel E-commerc website,used metrial of this project React ,useContext.
       useContext was importent of dataManipulation in this project.then vanilla css used to this project. hosting platform github.com...`,
     projectLink: `https://mrabdulbtw.github.io/carte/`,
-    githublink:`https://github.com/Mrabdulbtw`
+    githublink: `https://github.com/Mrabdulbtw`
   },
   {
-    projectImg: cart,
+    projectImg: cryptoCheaker,
     projectName: 'crypto-cheaker',
-    projectsdescription: `this is simpel E-commerc website,used metrial of this project React ,useContext.
-      useContext was importent of dataManipulation in this project.then vanilla css used to this project. hosting platform github.com...`,
-    projectLink: `https://mrabdulbtw.github.io/crypto-cheaker`,
-    githublink:`https://github.com/Mrabdulbtw`
+    projectsdescription: `this is the crypto currency cheaker.if you want cheake any crypto currency use in this site. hosting platform github.com...`,
+    projectLink: `https://mrabdulbtw.github.io/crypto-cheaker/`,
+    githublink: `https://github.com/Mrabdulbtw`
   },
 ] 
