@@ -8,7 +8,7 @@ export const ExData = [
 
     },
     {
-        Education: 'our lady of health aided higher secondary school-velankanni',
+        Education: 'our lady of health higher secondary school-velankanni',
         date: '2017 - 2019',
         department: 'HSC',
         gpa: "55%",

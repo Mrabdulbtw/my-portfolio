@@ -17,5 +17,4 @@ export default function Exline({ Education, icon, date, department, gpa }) {
             </div>
         </div>
     )
-    
 }
