@@ -1,4 +1,4 @@
-.about{
+.about {
     text-align: center;
     height: 100vh;
     display: flex;
@@ -7,61 +7,109 @@
     align-items: center;
 
 }
-.about--container{
-width: 500px;
-height: 300px;
- border-radius: 5px;
- box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+.about--container {
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
-.about--container p{
-margin-top: 10px;
-font-size: 16px;
-color: rgba(0, 0, 0, 0.626);
-text-transform: capitalize;
+
+.about--container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.626);
+    text-transform: capitalize;
 }
-.about h2{
+
+.about h2 {
     text-transform: capitalize;
     margin-top: 10px;
-     
-}
-.about--links{
-margin-top: 80px;
 
 }
-.about--links ion-icon{
-    font-size: 24px;
+
+.about--links {
+    margin-top: 80px;
+
 }
-.skil{
+
+.about--links ion-icon {
+    font-size: 24px;
+    column-rule: rgb(0, 49, 156);
+}
+
+.skil {
     text-align: center;
     text-transform: capitalize;
     height: 50vh;
     user-select: none;
-    
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.skil h1{
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 5px;
+    font-size: 30px;
+    border: 2px solid transparent;
+    padding: 10px;
+
+    border-image:
+        conic-gradient(from var(--angle),
+            #89106f 0deg 90deg,
+            #00d5ff 90deg 180deg,
+            #f53737 180deg 270deg,
+            #05f144 270deg 360deg) 1;
+    animation: rotate 300ms linear infinite;
+}
+
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+
+.skil h1 {
     margin-bottom: 30px;
-    
-}
-.github-icon:hover{
-color: red;    
-cursor: pointer;
-    
+    font-size: 24px;
+
 }
 
-.skil h3{
+.github-icon:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+.skil h3 {
     color: rgba(0, 0, 0, 0.605);
-}
-.skil--list{
-margin-top: 10px;
+    text-transform: lowercase;
 
 }
-@media screen and (max-width:900px){
-    .about--container{
 
-   width: 400px;
-   height: 200px;
+.skil--list {
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+
+
+@media screen and (max-width:900px) {
+    .about--container {
+        width: 400px;
+        height: 200px;
 
     }
 }

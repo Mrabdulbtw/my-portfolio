@@ -13,14 +13,12 @@ export const ExData = [
         department: 'HSC',
         gpa: "55%",
         icon: <ion-icon name="school-outline"></ion-icon>
-
     },
     {
         Education: 'St.Xaviers higher secondary school-neermulai',
         date: '2016 - 2017',
         department: 'SSLC',
         gpa: "80%",
-        icon: <ion-icon name="school-outline"></ion-icon>
-
+        icon: <icon><ion-icon name="school-outline"></ion-icon></icon>
     },
 ]
